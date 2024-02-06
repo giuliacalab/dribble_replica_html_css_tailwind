@@ -1,0 +1,33 @@
+@keyframes bg_change {
+    0% {
+        background-color: yellow;
+
+    }
+    30%{
+        background-color: aquamarine;
+    }
+
+    60%{
+        background-color: coral;
+    }
+
+    100%{
+        background-color: darkslateblue;
+    }
+
+    
+
+}
+
+.box{
+    width: 300px;
+    height: 30px;
+    background-color: aquamarine;
+    border-radius: 200px;
+    border-color: aquamarine;
+    animation-name: bg_change;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+
+
+}
