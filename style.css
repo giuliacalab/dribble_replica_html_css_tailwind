@@ -31,3 +31,16 @@
 
 
 }
+
+#boximg1 span {
+
+    display: none;
+
+
+}
+
+#boximg1 img1:hover span{
+    display: block;
+    position:absolute;
+    bottom:0;
+}
