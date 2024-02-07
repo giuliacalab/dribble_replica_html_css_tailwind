@@ -32,6 +32,11 @@
 
 }
 
+#boximg1{
+    position:relative;
+    overflow: hidden;
+}
+
 #boximg1 span {
 
     display: none;
@@ -39,8 +44,25 @@
 
 }
 
-#boximg1 img1:hover span{
+#boximg1 img {
+
+    border:0;
+    width: 100%;
+
+
+}
+
+#boximg1 span{
+width: 100%;
+position: absolute;
+bottom: 0;
+
+
+}
+
+#boximg1:hover span{
     display: block;
-    position:absolute;
-    bottom:0;
+    
+   
+    
 }
